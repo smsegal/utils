@@ -28,11 +28,11 @@ sync:
 
   code:
     alpha: "./"
-    beta: "mensch:~/projects/percipio_ml"
+    beta: "{%BETA%}:{%BETA_PATH%}"
     mode: "two-way-safe"
   vcs:
     alpha: "./.git"
-    beta: "mensch:~/projects/percipio_ml/.git"
+    beta: "{%BETA%}:{%BETA_PATH%}/.git"
     mode: "one-way-replica"
     ignore:
       vcs: false
